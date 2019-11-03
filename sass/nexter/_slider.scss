@@ -1,0 +1,60 @@
+.slider {
+
+  height: 70rem;  
+  grid-column: full-start / full-end;
+  grid-template-columns: 5rem auto 5rem;
+  grid-template-rows: 8rem 21rem 8rem 21rem;
+
+  &__img {
+    transition: all 2s;  
+    object-fit: cover;
+    width: 100%;
+    min-height:500px;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  h2 {
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+}
+
+
+@keyframes fade {
+  from {opacity:  .4;}
+  to   {opacity:   1;}
+}
+
+.prev, .next {
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 3rem;
+  z-index: 1;
+  display: inline-block;
+  transform: translateY(-35rem);
+  width: 6rem;
+  height: 6rem;
+} 
+
+.prev:hover,
+.next:hover {
+  background: rgba(0,0,0,.6);
+  transition: background-color .6s ease-in-out;
+  background-size: cover;
+}
+
+.prev {
+  grid-column-start: full-start;
+  grid-column: 1 / 2;
+  border-radius: 0 .5rem .5rem 0;
+}
+
+.next {
+  float: right;
+  grid-column: 3 / 4;
+  border-radius:  .5rem 0 0 .5rem ;
+}

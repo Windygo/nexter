@@ -1,0 +1,27 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "Nexter WP Theme",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass sass/nexter/main.scss -o css",
+    "css:watch": "npm run css && node-sass sass/main.scss -wo css",
+    "watch:sass": "node-sass sass/main.scss css/main.css -w",
+    "devserver": "live-server --browser=firefox",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/_main.scss css/main.css -w",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "author": "Zvi Eshel",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.11.2",
+    "autoprefixer": "^7.1.4",
+    "concat": "^1.0.3",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^6.1.3"
+  }
+}
