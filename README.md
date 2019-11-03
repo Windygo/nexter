@@ -73,7 +73,7 @@
    
   story_button_label - Text field. Value can be set on options page.
   
-  **Footer*
+  **Footer**
   
   Footer is a dynamic menu. It also responsive. On small screens it becomes verticls using Flex column.
   
