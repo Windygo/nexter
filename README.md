@@ -77,6 +77,17 @@
   
   Footer is a dynamic menu. It also responsive. On small screens it becomes verticls using Flex column.
   
+  
+  **Notes **
+  -Font Awesome Pro icons package installed with npm
+  -sass/nexter folder contains all actualy sass component files the correspond with mathing html
+  -main.scss imports all component _scss files
+  **Theme variables**:  Color Variables, Font variables, Break Point variables found on _base.scss
+  
+  
+  
+  
+  
    
    
   
