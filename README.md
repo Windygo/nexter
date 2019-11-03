@@ -4,7 +4,7 @@
   
   **Plugins** - 1 x plugin - Advanced Custom Fields PRO - Adds Options page to admin 
   
-  **CSS** - No framework fo any kind except use of CSS GRID. Class naming - BEM convention (fine tuning required)
+  **CSS** - No framework fo any kind. Use of CSS GRID & Flex. Class naming - BEM convention.
   
   **jquery** - Not used
   
