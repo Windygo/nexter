@@ -97,10 +97,10 @@
         b. Copying local uploads folder with all media (outside this repo) to production server
         c. Exporting local database and editing the database (find replace...)
           - //nexter.local to production URL
-          - //app/public  to /public_htmel/<folder-name>
-        d. Importing the above modifiend datbase into an empty databse on production site.
+          - //app/public  to /public_html/<folder-name>
+        d. Importing above modified datbase into an empty databse on production site.
         d. Installing local plugins on remote (outside this repo)
-        e. Copying local wp-config to production server and editing db / user name etc. to match production env.
+        e. Copying local wp-config to production server and editing to match production env.
   
   
   
