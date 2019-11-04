@@ -86,7 +86,7 @@
 
     -main.scss imports all component _scss files
 
-    -Theme variables:  Color Variables, Font variables, Break Point variables found on _base.scss
+    -Theme variables:  Color Variables, Font variables, Break Point variables found on /sass/_base.scss
     
   **Migration Notes to Production Server**
 
