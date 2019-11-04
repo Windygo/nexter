@@ -12,7 +12,7 @@
   
   **ACF Field Groups**
           
-  **Features** are the CPT of same name whic appear under hero area.   
+  **Features** are posts under the here area. CPT Features.
   
     show_feature -  T/F field set by default to T.  If unchecked, post will not appear on front page. 
     
@@ -24,7 +24,7 @@
     
     seen_on_logo_1 .. seen_on_logo_4 - Image url. Can be changed as needed from Media library.
   
-  **Properties** this ACF field group of total 6 fields feed the property cards. 
+  **Properties** this ACF field group of total 6 fields feed the property cards - CPT Properties. 
   
     country - Text field for country name.
     
@@ -38,7 +38,7 @@
     
     show_propety -  T/F field set by default to T.  If unchecked, post will not appear on front page. 
   
-  **Realtors**
+  **Realtors** The posts appearing at the right of the hero area. CPT Realtors.
   
   house_sold - Numbe field that deontes how many houses each realtor sold. This info appears below the realtor's name.
   
