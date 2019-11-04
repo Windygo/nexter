@@ -379,7 +379,7 @@ body {
     grid-column: 1 / -1; }
 
 .slider {
-  height: 70rem;
+  max-height: 58rem;
   grid-column: full-start / full-end;
   grid-template-columns: 5rem auto 5rem;
   grid-template-rows: 8rem 21rem 8rem 21rem; }
@@ -409,9 +409,13 @@ body {
   font-size: 3rem;
   z-index: 1;
   display: inline-block;
-  transform: translateY(-35rem);
   width: 6rem;
-  height: 6rem; }
+  height: 6rem;
+  position: relative;
+  transform: translateY(-27rem); }
+  @media only screen and (max-width: 75em) {
+    .prev, .next {
+      transform: translateY(-41rem); } }
 
 .prev:hover,
 .next:hover {
