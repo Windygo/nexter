@@ -94,7 +94,7 @@
      - Security plugin added for hardening the site
      - Migration steps included:
         a. Cloning this repo
-        b. Copying the original uploads folder (outside this repo) from local to production server
+        b. Copying local uploads folder with all media (outside this repo) to production server
         c. Exporting local database and editing the database (find replace...)
           - //nexter.local to production URL
           - //app/public  to /public_htmel/<folder-name>
