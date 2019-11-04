@@ -87,6 +87,20 @@
     -main.scss imports all component _scss files
 
     -Theme variables:  Color Variables, Font variables, Break Point variables found on _base.scss
+    
+  **Migration Notes**
+   
+     - The site is live
+     - Security plugin added for hardening the site
+     - Migration steps included:
+        a. Cloning this repo
+        b. Copying the original uploads folder (outside this repo) from local to production server
+        c. Exporting local database and editing the database (find replace...)
+          - //nexter.local to production URL
+          - //app/public  to /public_htmel/<folder-name>
+        d. Importing the above modifiend datbase into an empty databse on production site.
+        d. Installing local plugins on remote (outside this repo)
+        e. Copying local wp-config to production server and editing db / user name etc. to match production env.
   
   
   
