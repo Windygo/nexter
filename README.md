@@ -88,19 +88,20 @@
 
     -Theme variables:  Color Variables, Font variables, Break Point variables found on _base.scss
     
-  **Migration Notes**
-   
-     - The site is live
-     - Security plugin added for hardening the site
+  **Migration Notes to Production Server**
+
      - Migration steps included:
-        a. Cloning this repo
-        b. Copying local uploads folder with all media (outside this repo) to production server
-        c. Exporting local database and editing the database (find replace...)
+        a. Uploading fresh copy of WordPress.zip and exctracting .zip. Removing all default themes.
+        b. Cloning this repo into theme folder
+        c. Copying local uploads folder with all media (outside this repo) to production server
+        d. Exporting local database and editing the database (find replace...)
           - //nexter.local to production URL
           - //app/public  to /public_html/<folder-name>
-        d. Importing above modified datbase into an empty databse on production site.
-        d. Installing local plugins on remote (outside this repo)
-        e. Copying local wp-config to production server and editing to match production env.
+        e. Importing above modified datbase into an empty databse on production site.
+        f. Installing local plugins on remote (outside this repo)
+        g. Copying local wp-config to production server and editing to match production env.
+        h. Adding security plugin - hardening the site
+        
   
   
   
